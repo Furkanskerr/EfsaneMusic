@@ -152,7 +152,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://i.ibb.co/Qkz78hx/images-1.jpg"
+        thumb_name = "https://telegra.ph/file/7370a0365c5ee51a936c0.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Yerel olarak eklendi"
@@ -198,8 +198,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/efsanestar_bot"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/Sohbetdestek"),
+                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/MajesteMusicProBot"),
+                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/MajesteBotlar"),
             ],[
                 InlineKeyboardButton("📲 Kapat", callback_data="cls"),
             ],
@@ -207,7 +207,7 @@ async def play(_, message: Message):
     )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://i.ibb.co/Qkz78hx/images-1.jpg"
+            thumb_name = "https://telegra.ph/file/7370a0365c5ee51a936c0.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -263,8 +263,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/efsanestar_bot"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/Sohbetdestek"),
+                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/MajesteMusicProBot"),
+                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/Majesteler"),
             ],[
                 InlineKeyboardButton("📲 Kapat", callback_data="cls"),
             ],
